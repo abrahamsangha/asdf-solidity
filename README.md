@@ -37,7 +37,7 @@ asdf list-all solidity
 asdf install solidity latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global solidity latest
+asdf set -u solidity latest
 
 # Now solidity commands are available
 solc --version
